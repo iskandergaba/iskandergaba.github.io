@@ -1,0 +1,74 @@
+---
+layout: post
+title: post zero
+date: 2020-01-01 00:00:00
+description: the zero-th post of the decade
+---
+
+Welcome, dear visitor! You've reached my humble personal blog. This is a little space of mine where I jot down random, personal, and highly opinionated thoughts.
+
+<h3 class="thick">new decade, new website!</h3>
+<br/>
+As I write this post, I am putting the final touches on my new personal website on which you are reading these words. My old website comprised of very simple static pages. It was fine at the time I created it and fulfilled its purpose: Simply having a personal website. Here's how the home page looked like:
+
+<div class="img_row">
+	<img class="col three" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/old-site-home.png" alt="Old website home page">
+</div>
+<div class="col three caption">
+	Home page of the old website. 
+</div>
+
+<br/><br/>
+Mind you, however, it was a cool website. It was colorful and mobile responsive! Whoa! 
+
+<div class="img_row">
+	<img class="col two" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/old-site-education.png" alt="Old website education page">
+	<img class="col one" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/old-site-education-mobile.png" alt="Old website education page on mobile">
+</div>
+<div class="col three caption">
+	Education page of the old website in both laptop and phone screens. 
+</div>
+
+<br/><br/>
+But with the decade nearing its end, I wanted to refresh my personal page. I wanted a neat and simple design language. I needed a little personal space where I could express myself.
+
+Luckily, I found in <a href="https://liabogoev.com/2018/09/06/folio" target="_blank">*folio</a> Jekyll theme just what I was looking for and I decided to base my website design on it. I can now blog about things and better showcase my work with a clean portfolio page. I've also added little corner for displaying my academic publications. Here's a quick tour below: As you can see, the website is clean and mobile responsive of course.
+
+<div class="img_row">
+	<img class="col two" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/new-site-home.png" alt="New website home page">
+	<img class="col one" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/new-site-home-mobile.png" alt="New website home page on mobile">
+</div>
+<div class="col three caption">
+	Home page of the new website in both laptop and phone screens.
+</div>
+
+<br/><br/>
+In this little page, you can find my probably not so significant contribution to the human knowledge in the field of computer science! *Hoping to put more publications in there.*
+
+<div class="img_row">
+	<img class="col two" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/new-site-publications.png" alt="New website publications page">
+	<img class="col one" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/new-site-publications-mobile.png" alt="New website publications page on mobile">
+</div>
+<div class="col three caption">
+	Publications page of the new website in both laptop and phone screens.
+</div>
+
+<br/><br/>
+Finally, this is how project showcasing page look now. A major step up from the old website!
+<div class="img_row">
+	<img class="col three" src="{{site.baseurl}}/img/posts/2020-01-01-post-zero/new-site-project-example.png" alt="New website project page example">
+</div>
+<div class="col three caption">
+	Example project showcasing page in the new website. 
+</div>
+
+<br/><br/>
+And more! I let you, dear visitor, explore it yourself. With this new website, I wave goodbye to 2019, a great year, and say welcome to 2020!
+
+<h3 class="thick">happy new year wishes</h3>
+<br/>
+As I welcome the new year with my first blog post, I want this new year's wishes to be special and reserved for the less fortunate around the world.
+
+For those living in war zones, shivering in cold, starving to death, victims of war crimes and oppression in Syria, Schenzen, Myanmar, and many more. For those who were forced to flee homes and got mistreated afterwards by the very states involved in their misfortune. For you, I pray that 2020 be the end of your misery. I pray that you finally find solace, dignity, security, and peace. I pray that your offenders pay dearly for their crimes and that you receive your fair retribution.
+
+And you, dear visitor! Happy new year to you too! I look forward for more visits from you!
