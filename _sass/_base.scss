@@ -10,8 +10,7 @@ dl, dd, ol, ul, figure {
 }
 
 /** Variables **********************************************/
-$base-font-family:              Helvetica, sans-serif;
-$base-font-family-mobile:       'Nunito Sans', sans-serif;
+$base-font-family:       'Nunito Sans', Helvetica, sans-serif;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
@@ -35,7 +34,7 @@ $teal: #008080;
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$text-color:     rgb(70, 70, 70);
 
 /* Set theme color *************************/
 $theme-color: $teal;
@@ -48,9 +47,6 @@ $theme-color: $teal;
  */
 body {
     font-family: $base-font-family;
-    @include media-query($on-laptop) {
-        font-family: $base-font-family-mobile;
-    }
     font-size: $base-font-size;
     // line-height: $base-line-height;
     font-weight: 500;

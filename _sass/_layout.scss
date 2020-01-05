@@ -281,7 +281,7 @@ width: 100%;
 
 .caption{
 height: 100%;
-color: $caption_color;
+color: $theme-color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
@@ -296,6 +296,8 @@ font-size: $caption_font_size;
 
 .publication-subtitle {
     font-size: 1em;
+    font-weight: bold;
+    color: $theme-color;
 }
 
 .publication-description {
