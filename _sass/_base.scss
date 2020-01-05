@@ -11,6 +11,7 @@ dl, dd, ol, ul, figure {
 
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
+$base-font-family-mobile:       'Nunito Sans', sans-serif;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
@@ -47,9 +48,12 @@ $theme-color: $teal;
  */
 body {
     font-family: $base-font-family;
+    @include media-query($on-laptop) {
+        font-family: $base-font-family-mobile;
+    }
     font-size: $base-font-size;
     // line-height: $base-line-height;
-    font-weight: 100;
+    font-weight: 500;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
