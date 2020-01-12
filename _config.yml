@@ -2,14 +2,13 @@
 title: iskander
 email: iskandergaba@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  welcome to my little corner on the web!
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 github_username:  iskandergaba
 
 # Build settings
 markdown: kramdown
-
 highlighter: rouge
 
 # Pagination
@@ -19,11 +18,7 @@ paginate_path: "/blog/page:num/"
 # Plugins
 plugins: [jekyll-paginate]
 
-
 collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  research:
-    output: true
-    permalink: /research/:path/
