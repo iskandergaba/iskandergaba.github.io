@@ -5,11 +5,9 @@ layout: default
 <div class="header-bar">
   <h1>iskander gaba</h1>
   <h2>student | developer</h2>
-  <br/>
   <hr>
   <br/>
 </div>
-
 
 <ul class="post-list">
     {% for post in site.posts %}
@@ -17,8 +15,16 @@ layout: default
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
         <p>{{ post.description }}</p>
-        <br/>
         <hr/>
       </li>
     {% endfor %}
 </ul>
+
+<div class="contacticon center">
+	<a href="mailto:iskandergaba@gmail.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="https://www.linkedin.com/in/iskandergaba" target="_blank"><i class="fab fa-linkedin"></i></a>
+	<a href="https://github.com/iskandergaba" target="_blank"><i class="fab fa-github-square"></i></a>
+	<div class="col three caption">
+		Don't hesitate to drop by and say hi!
+	</div>
+</div>

@@ -15,13 +15,12 @@ That being said, it becomes clear why I am interested in applications of artific
 <br/>
 <hr/>
 <br/>
-<span class="contacticon center">
+<div class="contacticon center">
 	<a href="mailto:iskandergaba@gmail.com"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://www.linkedin.com/in/iskandergaba" target="_blank"><i class="fab fa-linkedin"></i></a>
 	<a href="https://github.com/iskandergaba" target="_blank"><i class="fab fa-github-square"></i></a>
-</span>
-
-<div class="col three caption">
-Don't hesitate to drop by and say hi!
+	<div class="col three caption">
+		Don't hesitate to drop by and say hi!
+	</div>
 </div>
 
