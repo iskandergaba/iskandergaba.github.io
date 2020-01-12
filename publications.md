@@ -1,6 +1,7 @@
 ---
 layout: page
 title: publications
+description: iskander gaba - publications
 permalink: /publications/
 ---
 
