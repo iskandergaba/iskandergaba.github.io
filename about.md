@@ -1,7 +1,6 @@
 ---
 layout: page
 title: about
-description: iskander gaba - about
 permalink: /about/
 ---
 

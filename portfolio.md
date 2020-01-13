@@ -1,7 +1,6 @@
 ---
 layout: page
 title: portfolio
-description: iskander gaba - portfolio
 permalink: /portfolio/
 ---
 
