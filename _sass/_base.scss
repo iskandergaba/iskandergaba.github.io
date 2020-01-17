@@ -31,14 +31,11 @@ $purple: #B509AC;
 $cornflower-blue: #6495ED;
 $teal: #008080;
 
-
-$grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     rgb(70, 70, 70);
 
 /* Set theme color *************************/
 $theme-color: $teal;
-
 
 /************************************************************/
 
@@ -186,6 +183,11 @@ pre {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+.emoji{
+    font-weight: 400;
+    font-family: apple color emoji, android emoji, segoe ui emoji, emojisymbols, emojione mozilla, twemoji mozilla, noto color emoji, segoe ui symbol;
 }
 
 
