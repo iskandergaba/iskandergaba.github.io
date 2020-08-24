@@ -16,7 +16,7 @@ That being said, it becomes clear why I am interested in applications of artific
 <hr/>
 <br/>
 <div class="contacticon center">
-	<a href="mailto:iskandergaba@gmail.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="mailto:iskander@hey.com"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://www.linkedin.com/in/iskandergaba" target="_blank"><i class="fab fa-linkedin"></i></a>
 	<a href="https://github.com/iskandergaba" target="_blank"><i class="fab fa-github-square"></i></a>
 	<div class="col three caption">
