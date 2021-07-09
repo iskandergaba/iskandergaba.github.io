@@ -10,7 +10,7 @@ dl, dd, ol, ul, figure {
 }
 
 /** Variables **********************************************/
-$base-font-family:       'Nunito Sans', sans-serif;
+$base-font-family:       'Nunito Sans', 'Harmattan', sans-serif;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
@@ -157,7 +157,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
 
 
 /**

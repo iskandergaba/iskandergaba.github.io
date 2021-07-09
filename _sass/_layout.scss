@@ -140,6 +140,7 @@ hyphens: auto;
  */
 .post-header {
 margin-bottom: $vertical-spacing-unit;
+text-align: center;
 }
 .post-title {
 font-size: 42px;
@@ -167,6 +168,9 @@ font-size: 20px;
 font-size: 18px;
         }
     }
+}
+.post-content * {
+    unicode-bidi: plaintext;
 }
 .post-meta {
 font-size: $small-font-size;
