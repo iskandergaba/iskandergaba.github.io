@@ -9,9 +9,12 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&family=Nunito+Sans&display=swap');
+
 /** Variables **********************************************/
-$base-font-family:       'Nunito Sans', 'Harmattan', sans-serif;
+$base-font-family:       'Nunito Sans', 'Tajawal', sans-serif;
 $base-line-height:              1.5em;
+$base-font-size:                100%;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
 $nav-height:                    56px;
@@ -45,7 +48,7 @@ $theme-color: $teal;
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
-    // line-height: $base-line-height;
+    //line-height: $base-line-height;
     font-weight: 500;
     color: $text-color;
     background-color: $background-color;
