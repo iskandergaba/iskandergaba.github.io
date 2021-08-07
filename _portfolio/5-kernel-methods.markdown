@@ -21,5 +21,4 @@ At the end, the best performance found out that Mismatch and linear combinations
 <span class="contacticon center">
 	<a href="https://github.com/iskandergaba/mosig2-kernel-methods-project" target="_blank"><i class="fab fa-github"></i></a>
 	<a href="https://www.kaggle.com/c/advanced-learning-models-2020" target="_blank"><i class="fab fa-kaggle"></i></a>
-	<a href="https://www.kaggle.com/c/advanced-learning-models-2020" target="_blank"><i class="fas fa-dna"></i></a>
 </span>
