@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -9,5 +9,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
     <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/img/favicon.png">
     <script src="https://kit.fontawesome.com/7368265a47.js"></script>
-    <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"iskander",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");</script>
+    <script>
+        if (!sessionStorage.getItem("_swa") && document.referrer.indexOf(location.protocol + "//" + location.host) !== 0) { fetch("https://counter.dev/track?" + new URLSearchParams({ referrer: document.referrer, screen: screen.width + "x" + screen.height, user: "iskander", utcoffset: "2" })) }; sessionStorage.setItem("_swa", "1");
+    </script>
 </head>
