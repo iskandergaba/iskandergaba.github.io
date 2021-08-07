@@ -1,7 +1,7 @@
 ---
 layout: post
 title: kernel methods for DNA sequences
-description: predicting whether a DNA sequence region is a binding site to a specific transcription factor
+description: Predicting whether a DNA sequence region is a binding site to a specific transcription factor
 date: 2021-02-17 23:57:00
 img: /img/portfolio/kernel-methods/dna.jpg
 ---
