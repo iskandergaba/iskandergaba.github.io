@@ -10,6 +10,7 @@ An information visualization project that seeks to help users visually answer a 
 
 I worked with Moncif Toubouh on this project, each producing a visualzation using [D3.js](https://d3js.org) giving a separate insight.
 
+<br>
 <h3 class="thick">moncif's visualization</h3>
 This visualization provides a global insight on how the CO<sub>2</sub> emissions are distributed across continent destinations over the years as well as a comparative one between different continent destinations. This visualization consists of a graph line per continent destination where years are depicted over the x axis, as it is commonly the case, and the CO<sub>2</sub> emissions in tons are depicted on the y axis. Each of the graphs is drawn with a carefully chosen color so that each one can easily stand out to the eye from the others. The user can also show/hide specific graphs for each continent destination. Having all graphs of all continent destinations in one plot depicted in different colors helps understand the general trend of emissions over the years per continent destination in a glimpse. In particular, the ability to individually show/hide specific graphs makes it possible to easily scan trends for select continent destinations of interest to the user and compare trends between them. 
 
@@ -20,6 +21,7 @@ This visualization provides a global insight on how the CO<sub>2</sub> emissions
 	Home page of the old website. 
 </div>
 
+<br>
 <h3 class="thick">my visualization</h3>
 <div class="img_row">
 	<img class="col one" src="{{site.baseurl}}/img/portfolio/info-viz/iskander1.png" alt="Institution Bar Chart" title="Institution Bar Chart"/>
