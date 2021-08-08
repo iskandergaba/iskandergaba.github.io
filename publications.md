@@ -12,7 +12,7 @@ Arabic Natural Language Processing Workshop
 
 <span class="publication-subtitle">Summary:</span> We describe DiaLex, a benchmark for intrinsic evaluation of dialectal Arabic word embeddings. DiaLex covers five important Arabic dialects: Algerian, Egyptian, Lebanese, Syrian, and Tunisian. Across these dialects, DiaLex provides a testbank for six syntactic and semantic relations, namely male to female, singular to dual, singular to plural, antonym, comparative, and genitive to past tense. DiaLex thus consists of a collection of word pairs representing each of the six relations in each of the five dialects. To demonstrate the utility of DiaLex, we use it to evaluate a set of existing and new Arabic word embeddings that we developed.
 
-<span class="publication-subtitle">Learn more:</span> <a href="https://arxiv.org/abs/2011.10970" target="_blank">https://arxiv.org/abs/2011.10970</a>
+<span class="publication-subtitle">Learn more:</span> <a href="https://aclanthology.org/2021.wanlp-1.2.pdf" target="_blank">https://aclanthology.org/2021.wanlp-1.2.pdf</a>
 
 <br/>
 <hr/>
