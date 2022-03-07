@@ -1,0 +1,41 @@
+<div class="img_row">
+  <div class="col one">
+    {% if page.previous %}
+    <figure class="paginationicon">
+      <a href="{{ page.previous.url }}"><i class="fa fa-chevron-circle-left"></i></a>
+      <figcaption>
+        {{ page.previous.title }}
+      </figcaption>
+    </figure>
+    {% endif %}
+  </div>
+
+  <div class="col one">
+    {% if page.collection == "posts" %}
+    <figure class="paginationicon">
+      <a href="{{  './' | absolute_url }}"><i class="fa fa-chevron-circle-up"></i></a>
+      <figcaption>
+        home
+      </figcaption>
+    </figure>
+    {% else %}
+    <figure class="paginationicon">
+      <a href="{{ page.collection | absolute_url }}"><i class="fa fa-chevron-circle-up"></i></a>
+      <figcaption>
+        {{ page.collection }}
+      </figcaption>
+    </figure>
+    {% endif %}
+  </div>
+
+
+  <div class="col one">
+    {% if page.next %}
+    <figure class="paginationicon">
+      <a href="{{ page.next.url }}"><i class="fa fa-chevron-circle-right"></i></a>
+      <figcaption>
+        {{ page.next.title }}
+      </figcaption>
+    </figure>
+    {% endif %}
+  </div>
