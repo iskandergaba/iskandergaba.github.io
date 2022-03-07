@@ -1,7 +1,0 @@
-<div class="wrapper">
-  {% if page.collection == "posts" %}
-  <a class="page-link" href="{{ './' | absolute_url }}">home</a>
-  {% else %}
-  <a class="page-link" href="{{ page.collection | relative_url }}">{{page.collection}}</a>
-  {% endif %}
-</div>
