@@ -1,31 +1,24 @@
 <div class="center">
   {% if page.previous %}
-  <div class="left">
-    <span class="paginationicon">
-      <a href="{{ page.previous.url }}"><i class="fa fa-chevron-circle-left"></i></a>
-    </span>
-  </div>
+  <span class="paginationicon left">
+    <a href="{{ page.previous.url }}"><i class="fa fa-chevron-circle-left"></i></a>
+  </span>
   {% endif %}
 
-  <span class="paginationicon">
-    {% if page.collection == "posts" %}
-    <div class="right">
-      <a href="{{  './' | absolute_url }}"><i class="fa fa-level-up"></i></a>
-    </div>
-    {% else %}
-    <a href="{{ page.collection | absolute_url }}"><i class="fa fa-level-up"></i></a>
-    {% endif %}
+  {% if page.collection == "posts" %}
+  <span class="paginationicon right">
+    <a href="{{  './' | absolute_url }}"><i class="fa fa-chevron-circle-up"></i></a>
   </span>
+  {% else %}
+  <span class="paginationicon center">
+    <a href="{{ page.collection | absolute_url }}"><i class="fa fa-chevron-circle-up"></i></a>
+  </span>
+  {% endif %}
 
   {% if page.next %}
-  <div class="right">
-    <span class="contacticon">
-      <a href="{{ page.next.url }}"><i class="fa fa-chevron-circle-right"></i></a>
-    </span>
-    <div class="right col one caption">
-      Next
-    </div>
-  </div>
-  
+  <span class="paginationicon right">
+    <a href="{{ page.next.url }}"><i class="fa fa-chevron-circle-right"></i></a>
+  </span>
   {% endif %}
+
 </div>
