@@ -284,6 +284,10 @@ width: 66.66%;
 width: 100%;
 }
 
+.border {
+    border: 1px solid $theme-color;
+}
+
 .caption{
 height: 100%;
 color: $theme-color;
